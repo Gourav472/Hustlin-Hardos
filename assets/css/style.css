@@ -307,21 +307,22 @@
     padding-top: 8px;
     padding-bottom: 15px;
 }
+
 ::-webkit-scrollbar {
     width: 10px;
-  
-  }
-  
-  /* Track */
-  ::-webkit-scrollbar-track {
+
+}
+
+/* Track */
+::-webkit-scrollbar-track {
     background: transparent !important;
-  }
-  
-  /* Handle */
-  ::-webkit-scrollbar-thumb {
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
     background: var(--black);
     border-radius: 20px;
-  }
+}
 
 /* timeline */
 /* The actual timeline (the vertical ruler) */
@@ -760,6 +761,7 @@
     .over_x {
         overflow-x: scroll;
     }
+
     .pt-b {
         padding-top: 13px;
         padding-bottom: 0px;

@@ -6,7 +6,7 @@ function openNav() {
 }
 
 function subtract() {
-  const value = document.getElementById("store")  
+  const value = document.getElementById("store")
   if (value.innerHTML > 100) {
     value.innerHTML = +value.innerHTML - 1
   }
@@ -38,18 +38,6 @@ var x = setInterval(function () {
     document.getElementById("demo").innerHTML = "EXPIRED";
   }
 }, 1000);
-
-
-
-
-
-
-
-
-
-
-
-
 
 $('.responsive_2').slick({
   dots: false,
@@ -160,7 +148,7 @@ function scrollFunction() {
 }
 
 function topFunction() {
-  document.body.scrollTop = 0; 
+  document.body.scrollTop = 0;
   document.documentElement.scrollTop = 0;
 }
 new Date().getFullYear()
