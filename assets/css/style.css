@@ -693,6 +693,10 @@
 .hithere {
     animation: hithere 2s ease infinite;
 }
+.border_bottom{
+    border-bottom: 1px solid var(--black);
+    max-width: 90px;
+}
 
 @keyframes hithere {
     30% {
