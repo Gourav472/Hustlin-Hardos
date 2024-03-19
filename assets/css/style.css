@@ -537,7 +537,10 @@
 }
 
 .b-l-r_image {
-    border: none;
+    border-left: 2px solid var(--black);
+    border-right: 2px solid var(--black);
+    border-top: 2px solid var(--black);
+    border-bottom: 2px solid var(--black);
 }
 
 .b_l_row_2 {
@@ -948,13 +951,16 @@
 }
 
 @media (min-width:992px) {
-    .b-l-r_image {
-        border-left: 2px solid var(--black);
-        border-right: 2px solid var(--black);
-    }
+   
 
     .b_l_row_2 {
         border-left: 2px solid var(--black);
+    }
+    .b-l-r_image {
+        border-left: 2px solid var(--black);
+        border-right: 2px solid var(--black);
+        border-top: none;
+        border-bottom:none;
     }
 }
 
