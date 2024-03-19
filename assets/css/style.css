@@ -697,6 +697,12 @@
     border-bottom: 1px solid var(--black);
     max-width: 90px;
 }
+.border_left_r{
+    border-left: 2px solid var(--black);
+}
+.border_right_r{
+    border-right: 2px solid var(--black);
+}
 
 @keyframes hithere {
     30% {
