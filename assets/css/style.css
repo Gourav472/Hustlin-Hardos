@@ -735,7 +735,7 @@
 }
 
 @media (max-width:616px) {
-    .btn_none{
+    .btn_none {
         display: none !important;
     }
 }
@@ -848,7 +848,7 @@
     border-right: 2px solid var(--black);
 }
 
-@media (max-width:768px) {
+@media (max-width:767px) {
     .mobile_view {
         position: fixed;
         background: transparent;
@@ -867,6 +867,7 @@
     .menu {
         z-index: 60;
     }
+
 
     .overflow_hidden {
         overflow: hidden;
@@ -923,6 +924,9 @@
     .gap_24 {
         gap: 24px;
     }
+}
+
+@media (max-width:768px) {
 
     .pb-20 {
         padding-bottom: 20px;
