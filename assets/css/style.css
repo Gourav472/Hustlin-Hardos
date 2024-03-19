@@ -126,7 +126,7 @@
 }
 
 .slider_1 {
-    padding: 48px 22px 46px 21px;
+    padding: 48px 28px 46px 21px;
 
 }
 
@@ -710,6 +710,7 @@
     border-right: 2px solid var(--black);
 }
 
+
 @keyframes hithere {
     30% {
         transform: scale(1);
@@ -734,9 +735,9 @@
 }
 
 @media (max-width:616px) {
-    /* .slider_br{
-        border-right: none;
-    } */
+    .btn_none{
+        display: none !important;
+    }
 }
 
 @media (min-width:393px) {
